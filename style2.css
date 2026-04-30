@@ -1,0 +1,104 @@
+/* ============================= */
+/*  STILIMET PËR FAQEN PRODUKTET */
+/* ============================= */
+body {
+  background-color: #ffe6f1;  
+  font-family: 'Segoe UI', sans-serif;
+  padding: 30px;
+  text-align: center;
+}
+
+header.main-header {
+  padding: 5px 10px; 
+  text-align: center;
+  background: linear-gradient(135deg, #a64d79, #ffb6c1);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  color: #fff0f5;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: auto;
+  min-height: 100px; 
+}
+
+header.main-header h1 {
+  font-size: 2.8em;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 5px #000;
+  max-width: 700px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header.main-header p {
+  font-size: 17px;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.product-section {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: #fff0f6;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 250px;
+  transition: transform 0.3s;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.product-card h3 {
+  color: #ff4d94;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.product-card .price {
+  font-weight: bold;
+  color: #b30059;
+}
+
+.product-card button {
+  background-color: #ff66b2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-card button:hover {
+  background-color: #e0559c;
+}
+
+video {
+  max-width: 50%;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

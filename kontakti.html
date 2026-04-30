@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <title>Kontakti - GlamBeauty</title>
+  <style>
+    
+    .container {
+      max-width: 600px;
+      margin: 60px auto;
+      background-color: #fff0f6;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #ff66b2;
+      margin-bottom: 30px;
+    }
+
+    p {
+      text-align: center;
+      font-size: 18px;
+      color: #444;
+      margin-bottom: 30px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      color: #ff66b2;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      font-size: 16px;
+    }
+
+    input[type="submit"] {
+      background-color: #ff66b2;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+      display: block;
+      margin: 0 auto;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #e0559c;
+    }
+
+    .back-link {
+      display: block;
+      text-align: center;
+      margin-top: 30px;
+      color: #ff66b2;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Contact</h1>
+    <p>Për çdo pyetje apo bashkëpunim, jemi këtu për t'ju ndihmuar. Plotësoni formularin më poshtë dhe do t'ju përgjigjemi me kënaqësi sa më shpejt të mundemi.</p>
+
+    <form action="mailto:email@example.com" method="post" enctype="text/plain">
+      <label for="name">Emri:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Mesazhi:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <input type="submit" value="📩 Dërgo Mesazhin">
+    </form>
+
+    <a href="index.html" class="back-link">🔙 Kthehu në faqen kryesore</a>
+  </div>
+
+</body>
+</html>
